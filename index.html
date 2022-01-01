@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year 2022 - Pratik Kumar Ghosh</title>
+    <style>
+        *{
+            overflow: hidden;
+        }
+
+        body,
+        html {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .canvas {
+            background: url("./happynewyear.webp") center center;
+            background-size: contain;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .canvas::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "";
+            width: 100%;
+            height: 100%;
+            animation-name: cool;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            opacity: 0.2;
+        }
+
+        .star1{
+            width: 0.2em;
+            height: 0.2em;
+            background-color: #ffffff;
+            position: absolute;
+            animation-name: staranime1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+        }
+
+        .star2{
+            width: 0.2em;
+            height: 0.2em;
+            background-color: #ffffff;
+            position: absolute;
+            animation-name: staranime2;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+        }
+
+        .star3{
+            width: 0.2em;
+            height: 0.2em;
+            background-color: #ffffff;
+            position: absolute;
+            animation-name: staranime3;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+        }
+
+        .star4{
+            width: 0.2em;
+            height: 0.2em;
+            background-color: #ffffff;
+            position: absolute;
+            animation-name: staranime4;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+        }
+
+        .star5{
+            width: 0.2em;
+            height: 0.2em;
+            background-color: #ffffff;
+            position: absolute;
+            animation-name: staranime5;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+        }
+
+        .star6{
+            width: 0.2em;
+            height: 0.2em;
+            background-color: #ffffff;
+            position: absolute;
+            animation-name: staranime6;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+        }
+
+        .star7{
+            width: 0.2em;
+            height: 0.2em;
+            background-color: #ffffff;
+            position: absolute;
+            animation-name: staranime7;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+        }
+
+        .star8{
+            width: 0.2em;
+            height: 0.2em;
+            background-color: #ffffff;
+            position: absolute;
+            animation-name: staranime8;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+        }
+
+        .star9{
+            width: 0.2em;
+            height: 0.2em;
+            background-color: #ffffff;
+            position: absolute;
+            animation-name: staranime9;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+        }
+
+        .star10{
+            width: 0.2em;
+            height: 0.2em;
+            background-color: #ffffff;
+            position: absolute;
+            animation-name: staranime10;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+        }
+
+        .star11{
+            width: 0.2em;
+            height: 0.2em;
+            background-color: #ffffff;
+            position: absolute;
+            animation-name: staranime11;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+        }
+
+        .star12{
+            width: 0.2em;
+            height: 0.2em;
+            background-color: #ffffff;
+            position: absolute;
+            animation-name: staranime12;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+        }
+
+        .body{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-end;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: crimson;
+        }
+
+        .body h2{
+            text-shadow: 6px 6px black;
+            animation-name: nameanime;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes cool {
+            0% {
+                background-color: red;
+            }
+
+            10% {
+                background-color: rgb(0, 255, 213);
+            }
+
+            20% {
+                background-color: rgb(89, 1, 231);
+            }
+
+            30% {
+                background-color: rgb(110, 210, 250);
+            }
+
+            40% {
+                background-color: green;
+            }
+
+            50% {
+                background-color: yellow;
+            }
+
+            60% {
+                background-color: rgb(192, 56, 113);
+            }
+
+            70% {
+                background-color: darkblue;
+            }
+
+            80% {
+                background-color: rgb(180, 13, 180);
+            }
+            
+            80% {
+                background-color: rgb(238, 78, 29);
+            }
+
+            100% {
+                background-color: orangered;
+            }
+        }
+
+        @keyframes staranime1 {
+            0%{
+                bottom: 0;
+                right: 0;
+            }
+            50%{
+                bottom: 50%;
+                right: 50%;
+            }
+            100%{
+                bottom: 100%;
+                right: 100%;
+            }
+        }
+
+        @keyframes staranime2 {
+            0%{
+                bottom: 10%;
+                right: 10%;
+            }
+            50%{
+                bottom: 70%;
+                right: 70%;
+            }
+            100%{
+                bottom: 100%;
+                right: 80%;
+            }
+        }
+
+        @keyframes staranime3 {
+            0%{
+                bottom: 30%;
+                right: 60%;
+            }
+            50%{
+                bottom: 70%;
+                right: 20%;
+            }
+            100%{
+                bottom: 50%;
+                right: 40%;
+            }
+        }
+
+        @keyframes staranime4 {
+            0%{
+                bottom: 100%;
+                right: 100%;
+            }
+            50%{
+                bottom: 70%;
+                right: 30%;
+            }
+            100%{
+                bottom: 80%;
+                right: 30%;
+            }
+        }
+
+        @keyframes staranime5 {
+            0%{
+                bottom: 0%;
+                right: 0%;
+            }
+            50%{
+                bottom: 30%;
+                right: 20%;
+            }
+            100%{
+                bottom: 50%;
+                right: 90%;
+            }
+        }
+
+        @keyframes staranime6 {
+            0%{
+                bottom: 80%;
+                right: 20%;
+            }
+            50%{
+                bottom: 30%;
+                right: 30%;
+            }
+            100%{
+                bottom: 0%;
+                right: 90%;
+            }
+        }
+
+        @keyframes staranime7 {
+            0%{
+                top: 0;
+                left: 0;
+            }
+            50%{
+                top: 50%;
+                left: 50%;
+            }
+            100%{
+                top: 100%;
+                left: 100%;
+            }
+        }
+
+        @keyframes staranime8 {
+            0%{
+                top: 10%;
+                left: 10%;
+            }
+            50%{
+                top: 70%;
+                left: 70%;
+            }
+            100%{
+                top: 100%;
+                left: 80%;
+            }
+        }
+
+        @keyframes staranime9 {
+            0%{
+                top: 30%;
+                left: 60%;
+            }
+            50%{
+                top: 70%;
+                left: 20%;
+            }
+            100%{
+                top: 50%;
+                left: 40%;
+            }
+        }
+
+        @keyframes staranime10 {
+            0%{
+                top: 100%;
+                left: 100%;
+            }
+            50%{
+                top: 70%;
+                left: 30%;
+            }
+            100%{
+                top: 80%;
+                left: 30%;
+            }
+        }
+
+        @keyframes staranime11 {
+            0%{
+                top: 0%;
+                left: 0%;
+            }
+            50%{
+                top: 30%;
+                left: 20%;
+            }
+            100%{
+                top: 50%;
+                left: 90%;
+            }
+        }
+
+        @keyframes staranime12 {
+            0%{
+                top: 80%;
+                left: 20%;
+            }
+            50%{
+                top: 30%;
+                left: 30%;
+            }
+            100%{
+                top: 0%;
+                left: 90%;
+            }
+        }
+
+        @keyframes nameanime {
+            from{
+                font-size: 1em;
+            }
+
+            to{
+                font-size: 3em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="canvas">
+        <div class="star1"></div>
+        <div class="star2"></div>
+        <div class="star3"></div>
+        <div class="star4"></div>
+        <div class="star5"></div>
+        <div class="star6"></div>
+        <div class="star7"></div>
+        <div class="star8"></div>
+        <div class="star9"></div>
+        <div class="star10"></div>
+        <div class="star11"></div>
+        <div class="star12"></div>
+        <div class="body">
+            <h2 id="h2"></h2>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
